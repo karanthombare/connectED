@@ -1,0 +1,295 @@
+/*custom stylesheet*/
+body{
+	font-family: 'Ubuntu', sans-serif !important;
+	font-weight: 400;
+	background-color: #F4F4F4 !important;
+}
+img{
+	max-width: 100%;
+}
+header{
+	background:#F4F4F4;
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+
+.user-details {
+    display: flex;
+}
+.user-details img {
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    border: 5px solid #fff;
+}
+.user-name-date-panel {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-left: 20px;
+}
+.heading {
+    font-size: 20px;
+    color: #666;
+    font-weight: 300;
+}
+.date-day{
+    font-size: 18px;
+    color: #666;
+    font-weight: 300;
+}
+.settings-panel {
+    display: flex;
+    align-items: center;
+    margin-top: 7px;
+}
+.icons-panel {
+    padding: 0 20px;
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: space-between;
+}
+.icons-panel a {
+    width: 60px;
+    height: 60px;
+    text-align: center;
+    background: #CBCBCB;
+    padding: 10px;
+    border-radius: 50%;
+    line-height: 45px;
+
+}
+.icons-panel a svg {
+    font-size: 25px;
+    color: #e4e4e4;
+    transition: .3s;
+}
+.content-wrapper{
+	margin-bottom: 100px;
+}
+.icons-panel a:hover svg{
+	color: #fff;
+}
+.content-area{
+	background-color: #fff;
+}
+.sidebar{
+	background-color: #00CED1;
+}
+.user-square-img {
+	height: 180px;
+	width: 180px;
+	object-fit: cover;
+	object-position: center;
+}
+.user-square-img {
+    height: 180px;
+    width: 180px;
+    object-fit: cover;
+    object-position: center;
+    border: 5px solid #f4f4f4;
+    margin-top: 30px;
+}
+.user-bio {
+    margin-top: 40px;
+}
+.user-bio p {
+    font-size: 18px;
+    color: #666;
+    margin-bottom: 6px;
+    font-weight: 300;
+}
+.heading-tabs{
+	margin-top: 30px;
+	background-color: #F4F4F4;
+ 	box-shadow: 0 0 6px 1px rgba(0, 0, 0, 0.3);
+    margin-bottom: 25px;
+}
+.heading-tabs ul {
+    padding: 0;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-bottom: 0;
+    padding: 20px;
+}
+.heading-tabs ul li a {
+    color: #666;
+}
+.heading-tabs ul li {
+    display: inline-block;
+    width: 33%;
+    text-align: center;
+}
+.field-row {
+	margin-top: 10px;
+}
+.field-row select {
+    width: 100%;
+    -webkit-appearance: none;
+    border: none;
+    border-bottom: 1px solid #AFAFAF;
+    border-radius: 0;
+    background: transparent;
+    outline: none;
+    color: #666;
+    font-size: 16px;
+    font-weight: 300;
+}
+.field-row input, .additional-inputs input {
+    width: 100%;
+    -webkit-appearance: none;
+    border: none;
+    border-bottom: 1px solid #AFAFAF;
+    border-radius: 0;
+    background: transparent;
+    outline: none;
+    font-size: 16px;
+    font-weight: 300;
+}
+.field-row select option {
+    color: #666 !important;
+    font-size: 16px;
+    font-weight: 300;
+}
+.field-row svg {
+    position: absolute;
+    right: 20px;
+    color: #AFAFAF;
+    font-size: 13px;
+    top: 7px;
+}
+.small-title {
+    margin-top: 40px;
+    margin-bottom: 15px;
+    border-bottom: 1px solid #cccccc;
+    padding-bottom: 10px;
+    color: #666;
+    font-size: 12px;
+}
+.additional-inputs{
+	margin-top: 30px;
+}
+.buttons{
+	margin-top: 50px;
+	margin-bottom: 30px;
+}
+.buttons button {
+    background: #D9D9D9;
+    border-radius: 0;
+    margin: 0;
+    width: 93px;
+    outline: none;
+}
+
+.sidebar-head {
+    text-align: center;
+    flex-direction: row;
+    margin-top: 50px;
+}
+.thumb-icon {
+    width: 100%;
+}
+.thumb-icon svg {
+    color: #009799;
+    font-size: 70px;
+}
+.head-desc {
+    color: #fff;
+    font-weight: 300;
+    font-size: 20px;
+    padding: 20px;
+}
+.sidebar-highligted-title {
+    text-align: center;
+    font-size: 20px;
+    color: #fff;
+    font-weight: 300;
+    margin-top: 20px;
+    padding: 17px 15px;
+    background-color: #00AAAD;
+}
+.range-slider {
+    margin-top: 30px;
+    margin-bottom: 25px;
+}
+.range-slider label {
+    font-size: 20px;
+    color: #fff;
+    font-weight: 300;
+}
+.importance-txt {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-direction: row;
+    margin-top: 10px;
+}
+.importance-txt .left, 
+.importance-txt .right {
+    text-align: left;
+    width: 50%;
+    color: #fff;
+    font-weight: 300;
+    font-size: 16px;
+}
+.importance-txt .right {
+    text-align: right;
+}
+.checkbox-wrapper svg {
+    position: absolute;
+    right: 25px;
+    top: 7px;
+    color: #00A2A4;
+}
+.checkbox-wrapper select {
+    margin-left: 25px;
+    background: transparent;
+    -webkit-appearance: none;
+    color: #fff;
+    font-weight: 300;
+    font-size: 20px;
+    border: none;
+    border-bottom: 1px solid #00A2A4;
+    border-radius: 0;
+    width: 90%;
+    padding-bottom: 5px;
+}
+.custom-checkbox {
+    position: relative;
+    left: 26px;
+    top: 4px;
+}
+.white-btn {
+    width: 100%;
+    float: left;
+    margin-top: 50px;
+    text-align: center;
+    background: #fff;
+    color: #00ced1;
+    padding: 13px 20px;
+}
+footer {
+    background: #D9D9D9;
+}
+footer ul {
+    padding: 20px 0;
+    display: flex;
+    width: 85%;
+    margin: auto;
+}
+footer ul li {
+    width: 20%;
+    margin: 0;
+    padding: 0;
+    display: inline-block;
+    text-align: center;
+    font-size: 16px;
+}
+footer ul li a {
+    color: #666;
+}
+
